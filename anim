@@ -72,11 +72,11 @@ local Reanimate = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mel
 Reanimate.Start({
 Accessories = {
 -- Rig
-{ Mesh = "14241018198", Texture = "14251599953", Instance = Torso },
-{ Mesh = "14768684979", Texture = "14768683674", Instance = RightArm, CFrame = CFrameAngles(0, 1.57, 1.57) },
-{ Mesh = "14768684979", Texture = "14768683674", Instance = LeftArm, CFrame = CFrameAngles(0, - 1.57, 1.57) },
-{ Mesh = "14241018198", Texture = "14251599953", Instance = RightLeg, CFrame = CFrameAngles(0, - 1.57, 1.57) },
-{ Mesh = "11159370334", Texture = "11159284657", Instance = LeftLeg, CFrame = CFrameAngles(0, 1.57, 1.57) },
+{ MeshId = "14241018198", Name = "Torso", Offset = CFrame.Angles(0, 0, -0.25), TextureId = "14251599953" },
+{ MeshId = "14768684979", Name = "Left Arm", Offset = CFrame.Angles(-1.57, 0, 1.57), TextureId = "14768683674" },
+{ MeshId = "14768684979", Name = "Right Arm", Offset = CFrame.Angles(-1.57, 0, -1.57), TextureId = "14768683674" },
+{ MeshId = "14241018198", Name = "Left Leg", Offset = CFrame.Angles(-1.57, 0, 1.57), TextureId = "14251599953" },
+{ MeshId = "11159370334", Name = "Right Leg", Offset = CFrame.Angles(-1.57, 0, -1.57), TextureId = "11159284657" },
 -- SB Rig
 { MeshId = "125443585075666", Name = "Torso", Offset = CFrame.Angles(0, 3.15, 0), TextureId = "121023324229475" },
 { MeshId = "121342985816617", Name = "Left Arm", Offset = CFrame.Angles(0, 0, 1.57), TextureId = "129264637819824" },
